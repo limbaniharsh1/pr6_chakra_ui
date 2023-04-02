@@ -5,8 +5,8 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-      <Box maxW="sm" borderWidth="1px" borderRadius="lg" p={4}>
+    <div className='App-header'>
+      <Box width='500px' borderWidth="1px" borderRadius="lg" p={4}>
       <FormControl>
         <FormLabel>Name</FormLabel>
         <Input type="text" />
